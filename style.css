@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+img {
+  content: none;
+}
+section {
+  height: 450px;
+  padding: 10px;
+  width: 400px;
+
+  border: 1px solid #000;
+}
+.text {
+  background-color: #fff;
+  height: 30%;
+  text-align: center;
+  padding: 15px 0;
+}
+.dic {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.QRcode {
+  background: #fff;
+  width: 100%;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+input {
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+  padding: 0 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  outline: none;
+}
+.btn {
+  width: 40%;
+  height: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #00a2ff;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+.alt {
+  display: none;
+}
+@media (max-width: 500px) {
+  section {
+    width: 90%;
+  }
+  input {
+    width: 80%;
+  }
+}
